@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 01 14:59:21 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5973 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.DeleteRequests.DeleteRequestTest.verifyDeleteEndPoint()'><b>verifyDeleteEndPoint</b><br>Test class: test.DeleteRequests.DeleteRequestTest</td>
+<td></td>
+<td>2</td>
+<td>test.DeleteRequests.DeleteRequestTest@3a6bb9bf</td></tr>
+<tr>
+<td title='test.GetRequests.GetResuestTests.getFirstPost()'><b>getFirstPost</b><br>Test class: test.GetRequests.GetResuestTests</td>
+<td></td>
+<td>0</td>
+<td>test.GetRequests.GetResuestTests@41fecb8b</td></tr>
+<tr>
+<td title='test.PostRequests.PostRequestTest.verifyPostEndPoint()'><b>verifyPostEndPoint</b><br>Test class: test.PostRequests.PostRequestTest</td>
+<td></td>
+<td>0</td>
+<td>test.PostRequests.PostRequestTest@625732</td></tr>
+<tr>
+<td title='test.GetRequests.GetResuestTests.getFirstPostComment()'><b>getFirstPostComment</b><br>Test class: test.GetRequests.GetResuestTests</td>
+<td></td>
+<td>0</td>
+<td>test.GetRequests.GetResuestTests@41fecb8b</td></tr>
+<tr>
+<td title='test.PatchRequests.PatchRequestTest.verifyPutEndPoint()'><b>verifyPutEndPoint</b><br>Test class: test.PatchRequests.PatchRequestTest</td>
+<td></td>
+<td>0</td>
+<td>test.PatchRequests.PatchRequestTest@120f102b</td></tr>
+<tr>
+<td title='test.PutRequest.PutRequestTest.verifyPatchEndPoint()'><b>verifyPatchEndPoint</b><br>Test class: test.PutRequest.PutRequestTest</td>
+<td></td>
+<td>0</td>
+<td>test.PutRequest.PutRequestTest@51dcb805</td></tr>
+<tr>
+<td title='test.GetRequests.GetResuestTests.getAlbumTen()'><b>getAlbumTen</b><br>Test class: test.GetRequests.GetResuestTests</td>
+<td></td>
+<td>0</td>
+<td>test.GetRequests.GetResuestTests@41fecb8b</td></tr>
+<tr>
+<td title='test.GetRequests.GetResuestTests.getAllPost()'><b>getAllPost</b><br>Test class: test.GetRequests.GetResuestTests</td>
+<td></td>
+<td>0</td>
+<td>test.GetRequests.GetResuestTests@41fecb8b</td></tr>
+<tr>
+<td title='test.GetRequests.GetResuestTests.getFirstPostCommentInvalid()'><b>getFirstPostCommentInvalid</b><br>Test class: test.GetRequests.GetResuestTests</td>
+<td></td>
+<td>0</td>
+<td>test.GetRequests.GetResuestTests@41fecb8b</td></tr>
+<tr>
+<td title='test.GetRequests.GetResuestTests.getVeriFyIDHundrade()'><b>getVeriFyIDHundrade</b><br>Test class: test.GetRequests.GetResuestTests</td>
+<td></td>
+<td>0</td>
+<td>test.GetRequests.GetResuestTests@41fecb8b</td></tr>
+<tr>
+<td title='test.GetRequests.GetResuestTests.getInvalidPost()'><b>getInvalidPost</b><br>Test class: test.GetRequests.GetResuestTests</td>
+<td></td>
+<td>0</td>
+<td>test.GetRequests.GetResuestTests@41fecb8b</td></tr>
+<tr>
+<td title='test.GetRequests.GetResuestTests.getAlbumInvalid()'><b>getAlbumInvalid</b><br>Test class: test.GetRequests.GetResuestTests</td>
+<td></td>
+<td>0</td>
+<td>test.GetRequests.GetResuestTests@41fecb8b</td></tr>
+<tr>
+<td title='test.GetRequests.GetResuestTests.getInvalidComment()'><b>getInvalidComment</b><br>Test class: test.GetRequests.GetResuestTests</td>
+<td></td>
+<td>0</td>
+<td>test.GetRequests.GetResuestTests@41fecb8b</td></tr>
+<tr>
+<td title='test.GetRequests.GetResuestTests.getVeriFyEmailForFifthID()'><b>getVeriFyEmailForFifthID</b><br>Test class: test.GetRequests.GetResuestTests</td>
+<td></td>
+<td>0</td>
+<td>test.GetRequests.GetResuestTests@41fecb8b</td></tr>
+<tr>
+<td title='test.GetRequests.GetResuestTests.getCommentsUnderFirstPost()'><b>getCommentsUnderFirstPost</b><br>Test class: test.GetRequests.GetResuestTests</td>
+<td></td>
+<td>0</td>
+<td>test.GetRequests.GetResuestTests@41fecb8b</td></tr>
+</table><p>
+</body>
+</html>
